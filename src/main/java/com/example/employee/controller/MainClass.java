@@ -10,4 +10,9 @@ public class MainClass {
     public String getMethod() {
         return "demo";
     }
+
+    @GetMapping("/greetings")
+    public String sayGreetings() {
+        return "Hi There!";
+    }
 }
